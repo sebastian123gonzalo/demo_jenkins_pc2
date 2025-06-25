@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Saludo {
     @GetMapping
     public String saludar() {
-        return "¡Hola desde Jenkins y Spring Boot!";
+        return "¡Hola desde Jenkins y Spring Boot, este es un nuevo mensaje!";
     }
 }
